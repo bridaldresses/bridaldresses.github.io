@@ -1,70 +1,81 @@
+
+
 <!DOCTYPE html>
 <html>
+
+<!-- Head -->
 <head>
-<style>
-div.container {
-    width: 100%;
-    border: 1px solid gray;
-}
 
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-}
+    <title>Bridal dresses</title>
 
-nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-}
+    <!-- For-Mobile-Apps -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     
+    <!-- //For-Mobile-Apps -->
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-   
-nav ul a {
-    text-decoration: none;
-}
+    <!-- Style -->
+        <link href="css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <!-- //Style -->
 
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-}
-</style>
+    <!-- Fonts -->
+        <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+    <!-- Fonts -->
+
 </head>
+<!-- //Head -->
+
+<!-- Body -->
 <body>
 
-<div class="container">
+    <div class="container">
+        <h1>Bridal Dresses</h1>
+        <div class="clear-loading spinner">
+            <span></span>
+        </div>
+    </div>
 
-<header>
-   <h1>City Gallery</h1>
-</header>
-  
-<nav>
-  <ul>
-    <li><a href="#">London</a></li>
-    <li><a href="#">Paris</a></li>
-    <li><a href="#">Tokyo</a></li>
-  </ul>
-</nav>
+    <div class="wrapper">
+        <h2>Apologies!</h2>
+        <h3>We are modifying our website. <span class="sub-message">We'll be back online in :</span></h3>
 
-<article>
-  <h1>London</h1>
-  <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-</article>
+        <div class="clock">
+            <div class="column days">
+                <div class="timer" id="days"></div>
+                <div class="text">DAYS</div>
+            </div>
+            <div class="timer days">:</div>
+            <div class="column">
+                <div class="timer" id="hours"></div>
+                <div class="text">HOURS</div>
+            </div>
+            <div class="timer">:</div>
+            <div class="column">
+                <div class="timer" id="minutes"></div>
+                <div class="text">MINUTES</div>
+            </div>
+            <div class="timer">:</div>
+            <div class="column">
+                <div class="timer" id="seconds"></div>
+                <div class="text">SECONDS</div>
+            </div>
+        </div>
+    </div>
 
-<footer>Copyright © W3Schools.com</footer>
+    <div class="footer">
+        <p> &copy; 2016 Bridal Dresses. All Rights Reserved </p>
+    </div>
 
-</div>
+    <!-- Custom-JavaScript-File-Links -->
+        <script  src="js/jquery-1.12.3.min.js" ></script>
+        <script type="text/javascript" src="js/moment.js"></script>
+        <script type="text/javascript" src="js/moment-timezone-with-data.js"></script>
+        <script type="text/javascript" src="js/timer.js"></script>
+    <!-- //Custom-JavaScript-File-Links -->
 
 </body>
-</html>
+<!-- //Body -->
 
+</html>
